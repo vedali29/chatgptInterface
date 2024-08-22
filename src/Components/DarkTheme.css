@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Theme Specific Styles */
+:root {
+  --bg-color: #181818;
+  --text-color: #e5e5e5;
+  --card-bg-color: #2a2a2a;
+  --message-history-bg-color: #ffffff;
+  --message-history-text-color: #000000;
+  --header-bg-color: #1a1a1a;
+  --input-bg-color: #2a2a2a;
+}
+
+/* Applying the variables */
+.bg-theme {
+  background-color: var(--bg-color);
+}
+
+.text-theme {
+  color: var(--text-color);
+}
+
+.card-bg-theme {
+  background-color: var(--card-bg-color);
+}
+
+.message-history-bg-theme {
+  background-color: var(--message-history-bg-color);
+}
+
+.message-history-text-theme {
+  color: var(--message-history-text-color);
+}
+
+.header-bg-theme {
+  background-color: var(--header-bg-color);
+}
+
+.input-bg-theme {
+  background-color: var(--input-bg-color);
+}
